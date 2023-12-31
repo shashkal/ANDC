@@ -7,9 +7,7 @@
 body{
     font-size: 1.2em;
     background-color: #fff;
-    color: #555;
-    
- 
+    color: #555;   
 }
 p {
     padding: 0 0 20px 0;
@@ -56,14 +54,15 @@ ul li {
 a, a:hover{
 outline: none;
 text-decoration: underline;
-color: rgb(58, 3, 255);
+color: rgb(0, 0, 0);
 }
 .header{
     background-color: darkslateblue;
-    height: 177px;
+    height: 100%;
     font-size: 0.8em;
-    margin-left:0px;
-    margin-right:0px ;
+    margin-left:0;
+    margin-right:0;
+    width: 100%;
     min-width: 900px;
 }
 .main, .logo, .menubar, .site_content, .footer {
@@ -128,10 +127,14 @@ hr {
 }
 
 .site_content{
-    width: 1870px;
+    
     overflow:hidden;
     margin: 20px auto 0 auto;
     background-color: white;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+        
     
 }
 .sidebar_container{
@@ -144,7 +147,7 @@ hr {
     padding: 5%;
     margin: 0 0 16px 0;
     border: solid 1px #d4d4d4;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: f9f9f9;
 }
 .btn { 
@@ -153,7 +156,7 @@ hr {
     cursor: pointer;
 }
 .sidebar h2 {
-    color: #136cb2;
+    color: #000000;
 }
 .lables_passreg_text {
     font-size: 0.9em;
@@ -201,7 +204,7 @@ font-size: 1.1  em;
 
     text-align: center;
     background-color: darkslateblue;
-    color: #a8aa94;
+    color: grey;
     margin-left: 0px;
     margin-left: 0px;
     min-width: 900px;
